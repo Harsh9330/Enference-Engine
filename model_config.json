@@ -1,0 +1,7 @@
+{
+    "num_layers": 2,
+    "hidden_dim": 256,
+    "vocab_size": 65,
+    "max_seq_len": 16,
+    "activation": "relu"
+}
