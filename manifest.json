@@ -1,0 +1,50 @@
+[
+    {
+        "name": "embedding_weight",
+        "shape": [
+            65,
+            256
+        ],
+        "dtype": "float32",
+        "offset": 32,
+        "length": 66560
+    },
+    {
+        "name": "dense_weight",
+        "shape": [
+            256,
+            256
+        ],
+        "dtype": "float32",
+        "offset": 66592,
+        "length": 262144
+    },
+    {
+        "name": "dense_bias",
+        "shape": [
+            256
+        ],
+        "dtype": "float32",
+        "offset": 328736,
+        "length": 1024
+    },
+    {
+        "name": "dense_1_weight",
+        "shape": [
+            256,
+            65
+        ],
+        "dtype": "float32",
+        "offset": 329760,
+        "length": 66560
+    },
+    {
+        "name": "dense_1_bias",
+        "shape": [
+            65
+        ],
+        "dtype": "float32",
+        "offset": 396320,
+        "length": 260
+    }
+]
